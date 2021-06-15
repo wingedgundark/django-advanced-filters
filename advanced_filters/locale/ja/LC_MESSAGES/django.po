@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-11 18:34+0300\n"
+"POT-Creation-Date: 2021-06-15 10:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: admin.py:24
+#: admin.py:25
 msgid "Advanced filters"
 msgstr "カスタムフィルター"
 
@@ -76,36 +76,78 @@ msgstr "値以上"
 msgid "Or (mark an or between blocks)"
 msgstr "OR（各条件をANDではなくORとして処理）"
 
-#: models.py:18 templates/admin/advanced_filters.html:16
+#: forms.py:69
+msgid "Field"
+msgstr "項目"
+
+#: forms.py:71
+msgid "Operator"
+msgstr "比較"
+
+#: forms.py:75
+msgid "Value"
+msgstr "値"
+
+#: forms.py:80
+msgid "Negate"
+msgstr "否定"
+
+#: models.py:24 templates/admin/advanced_filters.html:14
 msgid "Advanced Filter"
 msgstr "カスタムフィルター"
 
-#: models.py:19
+#: models.py:25
 msgid "Advanced Filters"
 msgstr "カスタムフィルター"
 
-#: templates/admin/advanced_filters.html:16
+#: models.py:27
+msgid "Title"
+msgstr "タイトル"
+
+#: models.py:31
+msgid "Created by"
+msgstr ""
+
+#: models.py:34
+#, fuzzy
+#| msgid "Greater Than"
+msgid "Created at"
+msgstr "値より多い"
+
+#: models.py:35
+msgid "URL"
+msgstr ""
+
+#: models.py:36
+msgid "Users"
+msgstr ""
+
+#: models.py:37
+msgid "Groups"
+msgstr ""
+
+#: templates/admin/advanced_filters.html:14
 msgid "Edit"
 msgstr "修正"
 
-#: templates/admin/advanced_filters.html:28
+#: templates/admin/advanced_filters.html:26
 msgid "Create advanced filter"
 msgstr "カスタムフィルターの作成"
 
-#: templates/admin/advanced_filters.html:67
+#: templates/admin/advanced_filters.html:64
 msgid "Save"
 msgstr "保存"
 
-#: templates/admin/advanced_filters.html:68
-#: templates/admin/advanced_filters/change_form.html:53
+#: templates/admin/advanced_filters.html:65
+#: templates/admin/advanced_filters/change_form.html:50
 msgid "Save & Filter Now!"
 msgstr "保存してフィルターを適用"
 
-#: templates/admin/advanced_filters.html:69
+#: templates/admin/advanced_filters.html:66
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: templates/admin/advanced_filters/change_form.html:16
+#: templates/admin/advanced_filters/change_form.html:14
 msgid "Change advanced filter"
 msgstr "カスタムフィルターを変更"
 
@@ -116,24 +158,3 @@ msgstr "他のフィルターを追加"
 #: templates/admin/common_js_init.html:15
 msgid "Remove"
 msgstr "削除"
-
-#: models.py:21
-msgid "Title"
-msgstr "タイトル"
-
-#: forms.py:76
-msgid "Field"
-msgstr "項目"
-
-#: forms.py:77
-msgid "Operator"
-msgstr "比較"
-
-#: forms.py:81
-msgid "Value"
-msgstr "値"
-
-#: forms.py:86
-msgid "Negate"
-msgstr "否定"
-

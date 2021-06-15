@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-09 01:42+0300\n"
+"POT-Creation-Date: 2021-06-15 10:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ozcan Yarimdunya ozcanyd@gmail.com\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,107 +18,107 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: admin.py:19
+#: admin.py:25
 msgid "Advanced filters"
 msgstr "Gelişmiş filtreler"
 
-#: admin.py:70
+#: admin.py:76
 msgid "Advanced filter added successfully."
 msgstr "Gelişmiş filtre başarıyla eklendi."
 
-#: forms.py:47
+#: forms.py:51
 msgid "Equals"
 msgstr "Eşittir"
 
-#: forms.py:48
+#: forms.py:52
 msgid "Contains"
 msgstr "İçerir"
 
-#: forms.py:49
+#: forms.py:53
 msgid "One of"
 msgstr "Herhangi biri"
 
-#: forms.py:50
+#: forms.py:54
 msgid "DateTime Range"
 msgstr "TarihSaat Aralığı"
 
-#: forms.py:51
+#: forms.py:55
 msgid "Is NULL"
 msgstr "BOŞ Mu"
 
-#: forms.py:52
+#: forms.py:56
 msgid "Is TRUE"
 msgstr "Doğru Mu"
 
-#: forms.py:53
+#: forms.py:57
 msgid "Is FALSE"
 msgstr "YANLIŞ Mı"
 
-#: forms.py:54
+#: forms.py:58
 msgid "Less Than"
 msgstr "Küçüktür"
 
-#: forms.py:55
+#: forms.py:59
 msgid "Greater Than"
 msgstr "Büyüktür"
 
-#: forms.py:56
+#: forms.py:60
 msgid "Less Than or Equal To"
 msgstr "Küçük veya Eşittir"
 
-#: forms.py:57
+#: forms.py:61
 msgid "Greater Than or Equal To"
 msgstr "Büyük veya Eşittir"
 
-#: forms.py:61
+#: forms.py:65
 msgid "Or (mark an or between blocks)"
 msgstr "Veya (bloklar arasından bir tane veya işaretleyin)"
 
-#: forms.py:65
+#: forms.py:69
 msgid "Field"
 msgstr "Alan"
 
-#: forms.py:67
+#: forms.py:71
 msgid "Operator"
 msgstr "Operatör"
 
-#: forms.py:71
+#: forms.py:75
 msgid "Value"
 msgstr "Değer"
 
-#: forms.py:76
+#: forms.py:80
 msgid "Negate"
 msgstr "Tersi"
 
-#: models.py:18 templates/admin/advanced_filters.html:14
+#: models.py:24 templates/admin/advanced_filters.html:14
 msgid "Advanced Filter"
 msgstr "Gelişmiş Filtre"
 
-#: models.py:19
+#: models.py:25
 msgid "Advanced Filters"
 msgstr "Gelişmiş Filtreler"
 
-#: models.py:21
+#: models.py:27
 msgid "Title"
 msgstr "Başlık"
 
-#: models.py:25
+#: models.py:31
 msgid "Created by"
 msgstr "Oluşturan"
 
-#: models.py:28
+#: models.py:34
 msgid "Created at"
 msgstr "Oluşturulma tarihi"
 
-#: models.py:29
+#: models.py:35
 msgid "URL"
 msgstr "URL"
 
-#: models.py:30
+#: models.py:36
 msgid "Users"
 msgstr "Kullanıcılar"
 
-#: models.py:31
+#: models.py:37
 msgid "Groups"
 msgstr "Gruplar"
 

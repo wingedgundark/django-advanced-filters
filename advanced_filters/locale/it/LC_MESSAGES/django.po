@@ -16,21 +16,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin.py:25
 msgid "Advanced filters"
-msgstr "Filtros avanzados"
+msgstr "Filtri Avanzati"
 
 #: admin.py:76
 msgid "Advanced filter added successfully."
-msgstr "Filtro guardado correctamente."
+msgstr "Filtro avanzato aggiunto con successo."
 
 #: forms.py:51
 msgid "Equals"
-msgstr "Igual"
+msgstr "Uguale a"
 
 #: forms.py:52
 msgid "Contains"
@@ -38,43 +36,43 @@ msgstr "Contiene"
 
 #: forms.py:53
 msgid "One of"
-msgstr "Uno de"
+msgstr "Uno di"
 
 #: forms.py:54
 msgid "DateTime Range"
-msgstr "Rango de fecha y hora"
+msgstr "Intervallo data/ora"
 
 #: forms.py:55
 msgid "Is NULL"
-msgstr "es Nulo"
+msgstr "è NULLO"
 
 #: forms.py:56
 msgid "Is TRUE"
-msgstr "Es Verdadero"
+msgstr "è VERO"
 
 #: forms.py:57
 msgid "Is FALSE"
-msgstr "Es Falso"
+msgstr "è FALSO"
 
 #: forms.py:58
 msgid "Less Than"
-msgstr "Menor que"
+msgstr "Minore di"
 
 #: forms.py:59
 msgid "Greater Than"
-msgstr "Mayor que"
+msgstr "Maggiore di"
 
 #: forms.py:60
 msgid "Less Than or Equal To"
-msgstr "Menor o igual a"
+msgstr "Minore o uguale a"
 
 #: forms.py:61
 msgid "Greater Than or Equal To"
-msgstr "Mayor o igual a"
+msgstr "Maggiore o uguale a"
 
 #: forms.py:65
 msgid "Or (mark an or between blocks)"
-msgstr "O (Marca O entre bloques)"
+msgstr "Oppure (determina un Oppure tra i blocchi)"
 
 #: forms.py:69
 msgid "Field"
@@ -82,85 +80,77 @@ msgstr "Campo"
 
 #: forms.py:71
 msgid "Operator"
-msgstr "Operador"
+msgstr "Operatore"
 
 #: forms.py:75
 msgid "Value"
-msgstr "Valor"
+msgstr "Valore"
 
 #: forms.py:80
 msgid "Negate"
-msgstr "Negación"
+msgstr "Nega"
 
 #: models.py:24 templates/admin/advanced_filters.html:14
 msgid "Advanced Filter"
-msgstr "Filtro avanzado"
+msgstr "Filtro Avanzato"
 
 #: models.py:25
 msgid "Advanced Filters"
-msgstr "Filtros avanzados"
+msgstr "Filtri Avanzati"
 
 #: models.py:27
 msgid "Title"
-msgstr "Título"
+msgstr "Titolo"
 
 #: models.py:31
 msgid "Created by"
-msgstr ""
+msgstr "Creato da"
 
 #: models.py:34
-#, fuzzy
-#| msgid "Greater Than"
 msgid "Created at"
-msgstr "Mayor que"
+msgstr "Ora creazione"
 
 #: models.py:35
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: models.py:36
 msgid "Users"
-msgstr ""
+msgstr "Utenti"
 
 #: models.py:37
 msgid "Groups"
-msgstr ""
+msgstr "Gruppi"
 
 #: templates/admin/advanced_filters.html:14
 msgid "Edit"
-msgstr "Editar"
+msgstr "Modifica"
 
 #: templates/admin/advanced_filters.html:26
 msgid "Create advanced filter"
-msgstr "Crear filtro avanzado"
+msgstr "Crea filtro avanzato"
 
 #: templates/admin/advanced_filters.html:64
 msgid "Save"
-msgstr "Guardar"
+msgstr "Salva"
 
 #: templates/admin/advanced_filters.html:65
 #: templates/admin/advanced_filters/change_form.html:50
 msgid "Save & Filter Now!"
-msgstr "Guardar y filtrar!"
+msgstr "Salva e filtra Ora!"
 
 #: templates/admin/advanced_filters.html:66
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Elimina"
 
 #: templates/admin/advanced_filters/change_form.html:14
 msgid "Change advanced filter"
-msgstr "Cambiar filtro avanzado"
+msgstr "Modifica filtro avanzato"
 
 #: templates/admin/common_js_init.html:14
 msgid "Add another filter"
-msgstr "Añadir otro filtro"
+msgstr "Inserisci nuovo filtro"
 
 #: templates/admin/common_js_init.html:15
 msgid "Remove"
-msgstr "Eliminar"
-
-#~ msgid "Value from"
-#~ msgstr "Desde"
-
-#~ msgid "Value to"
-#~ msgstr "Hasta"
+msgstr "Rimuovi"
